@@ -1,0 +1,109 @@
+body {
+    background-color: red;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.container {
+    background-color: #ffff;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sub-container {
+    width: 70%;
+    margin: 0px auto;
+}
+
+#navigation {
+    background-color: black;
+    width: 90%;
+    margin: 7px 45px;
+}
+
+ul>li {
+    color: #ffff;
+    float: left;
+    list-style-type: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-left: 32px;
+    
+    
+
+}
+
+h1 {
+    text-align: center;
+    word-spacing: 55px;
+    font-size: 50px;
+
+}
+
+
+p {
+    text-align: justify;
+
+}
+
+img {
+    height: 5%;
+    width: 100%;
+    margin: 0px auto;
+    background-size: cover;
+}
+#image-container{
+    margin: 20px 15px;
+}
+
+.image-1 {
+    width: 25%;
+    float: right;
+    
+    
+
+
+}
+
+.image-2 {
+    width: 35%;
+    float: left;
+    
+    
+}
+
+.image-3 {
+    width: 35%;
+    float: left;
+   margin-left: 20px;
+   
+   
+
+}
+
+.image-4 {
+    width: 35%;
+    float: left;
+   
+
+}
+
+.image-5 {
+    width: 34%;
+    float: left;
+    margin-left: 25px;
+   
+}
+
+.image-6 {
+    width: 25%;
+    float: left;
+    margin-left: 16px;
+    
+
+}
